@@ -1,0 +1,32 @@
+﻿{
+    "generated_at":  "2026-05-05T09:28:50",
+    "language":  "ES",
+    "system":  {
+                   "os":  "Microsoft Windows 11 IoT Enterprise LTSC",
+                   "cpu":  "AMD Ryzen 5 5500U with Radeon Graphics",
+                   "cores":  6,
+                   "ram_gb":  23.33,
+                   "gpu":  "AMD Radeon(TM) Graphics",
+                   "vram_gb":  0.5,
+                   "disk_free_gb":  303.32
+               },
+    "assessment":  {
+                       "score":  55,
+                       "semaforo":  "RED",
+                       "recommendation":  "Enterprise Online",
+                       "local_candidates":  [
+                                                "gemma:2b",
+                                                "gemma:7b",
+                                                "llama3:8b",
+                                                "mistral:7b",
+                                                "phi-3-mini"
+                                            ],
+                       "enterprise_candidates":  [
+                                                     "deepseek-r1",
+                                                     "deepseek-v3",
+                                                     "gpt-4.1",
+                                                     "claude-sonnet",
+                                                     "gemini-1.5-pro"
+                                                 ]
+                   }
+}
