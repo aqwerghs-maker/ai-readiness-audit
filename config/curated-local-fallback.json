@@ -1,0 +1,10 @@
+{
+  "source": "fallback_offline_curated",
+  "models": [
+    { "name": "gemma:2b", "minRAMGB": 8, "minVRAMGB": 4, "minDiskGB": 20 },
+    { "name": "gemma:7b", "minRAMGB": 16, "minVRAMGB": 8, "minDiskGB": 40 },
+    { "name": "llama3:8b", "minRAMGB": 16, "minVRAMGB": 8, "minDiskGB": 50 },
+    { "name": "mistral:7b", "minRAMGB": 16, "minVRAMGB": 8, "minDiskGB": 40 },
+    { "name": "phi-3-mini", "minRAMGB": 8, "minVRAMGB": 4, "minDiskGB": 20 }
+  ]
+}
